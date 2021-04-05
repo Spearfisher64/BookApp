@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_books"
+            android:icon="@drawable/menu_book_24"
+            android:title="Search Book" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile_24"
+            android:title="Profile" />
+        <item android:id="@+id/nav_allBooks"
+            android:icon="@drawable/menu_book_24"
+            android:title="Random Books"/>
+
+    </group>
+
+    <item android:title="Actions">
+        <menu>
+            <item
+                android:id="@+id/logoutBtn"
+                android:icon="@drawable/close_24"
+                android:title="Logout" />
+
+        </menu>
+    </item>
+
+
+</menu>
